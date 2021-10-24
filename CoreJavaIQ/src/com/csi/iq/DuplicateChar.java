@@ -1,5 +1,6 @@
 package com.csi.iq;
 
+import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -16,9 +17,9 @@ public class DuplicateChar {
 
 		char orgChar[] = orignalString.toCharArray();
 
-		Set uniChar = new TreeSet<>();
+		Set uniChar = new HashSet<>();
 
-		Set dupChar = new TreeSet<>();
+		Set dupChar = new HashSet<>();
 
 		for (Character ch : orgChar) 
 		{
